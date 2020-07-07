@@ -1,0 +1,49 @@
+body, html{
+  padding: 0;
+  margin: 0;
+  font-size: 10px;
+  background: url("img2.PNG") top center;
+  background: cover;
+  background-repeat: no-repeat;
+}
+
+.keys{
+  display: flex;
+  min-width: 100vh;
+  margin-top: 25rem;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.key{
+  border: .4rem solid black;
+  border-radius: .5rem;
+  font-size: 1.5rem;
+  margin: 1rem;
+  padding: 1rem .5px;
+  width: 10rem; 
+  transition: all .07s ease;
+  text-align: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.4);
+  text-shadow: 0 0 .5rem black;
+}
+
+.play{
+  transform: scale(1.1);
+  border-color: #ff9100;
+  box-shadow: 0 0 1rem #ff9100;
+}
+
+kbd{
+  display: block;
+  font-size: 4rem;
+}
+
+.sound{
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #ff9100;
+}
